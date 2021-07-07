@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/uicons-regular-rounded.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script async src="script.js"></script>
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div>
+        <div id="container">
+            <div id="rangeSlider">
+                <input type="range" value="16" min="16" max="64" id="range" style="width: 350px;"> <br>
+                <span style="color: white;"><input value="16" class="RCV" id="rows" readonly type="number"> X <input class="RCV" readonly value="16" id="cols"type="number"></span>
+            </div>
+            <div id="boxes"></div> <br>       
+        </div>
+        <div style="margin-top: 37%;text-align: center;">
+            <button class="btn" onclick="clearFunc()">Clear</button> <span style="color: white;">Pick A Color <input type="color" name="color" id="colorPicker"></span>
+        </div>
+        
+
+
+    </body>
+</html>
